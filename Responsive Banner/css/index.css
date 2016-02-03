@@ -1,0 +1,139 @@
+
+.container{
+    
+    height: 500px;
+    width:625px;
+    position: relative;
+}
+.sidebar{
+    
+    height: 300px;
+    width:300px;
+    float:right;
+    
+}
+
+.logo{
+    height: 130px;
+    width:298px;
+   
+}
+.logoimg{
+  
+}
+
+.price{
+    margin:20px 0px;
+    height: 50px;
+    width:298px;
+  
+}
+
+.MRP{
+   font-size:40px;
+    width: 146px;
+    float: left;
+    color:darkgray;
+    text-align: center;
+
+}
+.discount{
+     font-size: 40px;
+    width: 148px;
+    float: left;
+    color:darkgray;
+    text-align: center;
+    font-style: italic;
+   
+    text-decoration:line-through;
+}
+
+#slider {
+  list-style: none;
+  position: relative;
+  height: 300px;
+  width:225px;
+  
+  padding-left: 0px;
+
+ 
+}
+
+
+#slider  img {
+    
+    position: absolute;
+    left: 0px;
+    width:225px;
+    height:300px;
+}
+.overimg{
+    height: 300px;
+    widows: 250px;
+}
+.shopNow{
+    background-color: black;
+    margin:10px 0px;
+    font-size: 40px;
+    width:298px;
+    text-align: center;
+    font-style:italic;
+
+    color:yellow;
+}
+.carousel ul,carousel li{  
+        padding: 0;  
+        list-style: none;  
+        list-style-type: none;  
+    }  
+carousel ul{  
+        position: relative;  
+        width: 100%;  
+        margin: 0;  
+       
+    }  
+.carousel li{  
+        display: inline-block;
+        border: 1px solid #ccc;  
+        overflow: hidden;  
+        width: 100px;  
+        margin: 2%;  
+        float: left;  
+        -moz-box-sizing: border-box;  
+        -webkit-box-sizing: border-box;  
+        box-sizing: border-box;  
+        height: 100px;  
+        cursor:pointer;
+    
+    }  
+
+#dots li.active{
+    border-color: orange;
+}
+.jsonimg{
+    height: 100%;
+    width: 100%;
+}
+
+
+.dolar{
+ height:20px;
+ width:50px;
+
+ margin:0px 36px;
+float:left;
+text-align: center;
+font-style: italic;
+}
+
+a.fel {
+   position: absolute;
+   height: 500px;
+    width:625px;
+    z-index:100;
+    text-decoration: none;
+}
+.carousel{
+    position: relative;
+    z-index: 1000;
+}
